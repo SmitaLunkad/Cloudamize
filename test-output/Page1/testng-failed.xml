@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page1]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="ExecutionEngine.Dashboard">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- ExecutionEngine.Dashboard -->
+      <class name="ExecutionEngine.MigrationPlanner">
+        <methods>
+          <include name="testMigrationPlannerCSVReports"/>
+        </methods>
+      </class> <!-- ExecutionEngine.MigrationPlanner -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Page1] -->

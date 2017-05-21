@@ -1,0 +1,4187 @@
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 152900.0  Compare SummarySheet_ComputeCost : 153256.3 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 152900.0  Compare ComputeSheet_ComputeCost : 153256.3 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 17300.0  Compare SummarySheet_StorageCost : 17324.502 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 17300.0  Compare StorageSheet_StorageCost : 17324.703 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 29700.0  Compare SummarySheet_NetworkCost : 29702.2 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 29700.0  Compare NetworkSheet_NetworkCost : 29702.2 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 199800.0  Compare SummarySheet_TotalCost : 200282.69 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 199800.0 Compare GreenSphere_AnnualCost : 200000.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 126000.0  Compare SummarySheet_ComputeCost : 125788.664 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 126000.0  Compare ComputeSheet_ComputeCost : 125788.664 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 22100.0  Compare SummarySheet_StorageCost : 22094.598 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 22100.0  Compare StorageSheet_StorageCost : 22094.805 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 29700.0  Compare SummarySheet_NetworkCost : 29702.2 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 29700.0  Compare NetworkSheet_NetworkCost : 29702.2 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 177800.0  Compare SummarySheet_TotalCost : 177584.8 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 177800.0 Compare GreenSphere_AnnualCost : 178000.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 66800.0  Compare SummarySheet_ComputeCost : 66834.91 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 66800.0  Compare ComputeSheet_ComputeCost : 66834.91 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 22100.0  Compare SummarySheet_StorageCost : 22094.598 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 22100.0  Compare StorageSheet_StorageCost : 22094.805 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 29700.0  Compare SummarySheet_NetworkCost : 29702.2 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 29700.0  Compare NetworkSheet_NetworkCost : 29702.2 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 118700.0  Compare SummarySheet_TotalCost : 118630.91 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 118700.0 Compare GreenSphere_AnnualCost : 119000.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+method name : testDashboard  
+Overall Test Result :Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $162k Compare CSV_TotalCost : $162k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $112k Compare CSV_ComputeCost : $112k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 162000.0 Compare CSV_TotalCost : 162490.8 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $162k Compare CSV_TotalCost : $162k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $112k Compare CSV_ComputeCost : $112k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 162000.0 Compare CSV_TotalCost : 162490.8 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, On Demand 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $111k Compare CSV_TotalCost : $111k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $60.9k Compare CSV_ComputeCost : $60.9k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 111000.0 Compare CSV_TotalCost : 111113.91 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 60900.0 Compare CSV_ComputeCost : 60851.4 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 60900.0 Compare CSV_ComputeCost : 60851.4 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $66.6k Compare CSV_TotalCost : $66.6k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $44.7k Compare CSV_ComputeCost : $44.7k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $0 Compare CSV_NetworkCost : $0 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 66600.0 Compare CSV_TotalCost : 66551.39 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 44700.0 Compare CSV_ComputeCost : 44734.902 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 0.0 Compare CSV_NetworkCost : 0.0 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 44700.0 Compare CSV_ComputeCost : 44734.902 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 0.0 Compare CSV_NetworkCost : 0.0 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, Cost Optimized 3-yr 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $129k Compare CSV_TotalCost : $129k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $78.5k Compare CSV_ComputeCost : $78.5k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 129000.0 Compare CSV_TotalCost : 128756.21 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 78500.0 Compare CSV_ComputeCost : 78493.0 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 78500.0 Compare CSV_ComputeCost : 78493.0 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Workload, All Upfront 1-yr 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $148k Compare CSV_TotalCost : $148k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $98.3k Compare CSV_ComputeCost : $98.3k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 148000.0 Compare CSV_TotalCost : 148534.48 
+MigrationPlanner_TotalCost and CSV_TotalCost match : false ***CSV23*** 
+Failed 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 98300.0 Compare CSV_ComputeCost : 98271.89 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 98300.0 Compare CSV_ComputeCost : 98271.89 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $162k Compare CSV_TotalCost : $162k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $112k Compare CSV_ComputeCost : $112k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 162000.0 Compare CSV_TotalCost : 162490.8 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Test1 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $162k Compare CSV_TotalCost : $162k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $112k Compare CSV_ComputeCost : $112k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 162000.0 Compare CSV_TotalCost : 162490.8 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1212 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $162k Compare CSV_TotalCost : $162k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $112k Compare CSV_ComputeCost : $112k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 162000.0 Compare CSV_TotalCost : 162490.8 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : 1313 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $162k Compare CSV_TotalCost : $162k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $112k Compare CSV_ComputeCost : $112k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 162000.0 Compare CSV_TotalCost : 162490.8 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Accenture 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $162k Compare CSV_TotalCost : $162k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $112k Compare CSV_ComputeCost : $112k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $21.8k Compare CSV_StorageCost : $21.8k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $28.4k Compare CSV_NetworkCost : $28.4k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 162000.0 Compare CSV_TotalCost : 162490.8 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.799 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 112000.0 Compare CSV_ComputeCost : 112228.38 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 21800.0 Compare CSV_StorageCost : 21815.807 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 28400.0 Compare CSV_NetworkCost : 28447.4 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Disney 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+method name : testMigrationPlannerDownloadAll  
+Overall Test Result : Failed 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Inbound Firewall Rules 
+Verify Detailed Report : Firewall Rules --> for null values and no data 
+Inbound Firewall Rules --> has data and does not contain null values 
+Firewall Rules Test Passed ***CSV_13*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Outbound Firewall Rules 
+Verify Detailed Report : Firewall Rules --> for null values and no data 
+Outbound Firewall Rules --> has data and does not contain null values 
+Firewall Rules Test Passed ***CSV_14*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : UDP Firewall Rules 
+Verify Detailed Report : Firewall Rules --> for null values and no data 
+UDP Firewall Rules --> has data and does not contain null values 
+Firewall Rules Test Passed ***CSV_15*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Installed Applications 
+Verify Detailed Report : Installed Apps --> for null values and no data 
+Installed Applications --> has data and does not contain null values 
+Installed Apps Test Passed ***CSV_16*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : DNS 
+Verify Detailed Report : Client App DNS --> for null values and no data 
+DNS --> has data and does not contain null values 
+Client App DNS Test Passed ***CSV_17*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : IP and DNS 
+Verify Detailed Report : IP and DNS --> for null values and no data 
+IP and DNS --> has data and does not contain null values 
+IP and DNS Test Passed ***CSV_19*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : App Interconnectivity 
+Verify Detailed Report : App Interconnectivity (All) --> for null values and no data 
+App Interconnectivity --> has data and does not contain null values 
+App Interconnectivity (All) Test Passed ***CSV_20*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : All 
+Verify Detailed Report : App Interconnectivity --> for null values and no data 
+All --> has data and does not contain null values 
+App Interconnectivity Test Passed ***CSV_21*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : To Any Server 
+Verify Detailed Report : App Interconnectivity --> for null values and no data 
+To Any Server --> has data and does not contain null values 
+App Interconnectivity Test Passed ***CSV_21*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : From Any Client 
+Verify Detailed Report : App Interconnectivity --> for null values and no data 
+From Any Client --> has data and does not contain null values 
+App Interconnectivity Test Passed ***CSV_21*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Summary 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Summary --> has data and does not contain null values 
+Inter-Node Communication Test Passed ***CSV_22*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Inter-Communicating Nodes 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Inter-Communicating Nodes --> has data and does not contain null values 
+Inter-Node Communication Test Passed ***CSV_22*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Inter-Communicating Servers 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Inter-Communicating Servers --> has data and does not contain null values 
+Inter-Node Communication Test Passed ***CSV_22*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize --> Plan : Hardware, On Demand 
+Sheet : Inter-Communicating Clients 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Inter-Communicating Clients --> has no data 
+Inter-Node Communication Test Failed ***CSV_22*** 
+Failed 
+ 
+method name : testMigrationPlannerDetailedReports  
+Overall Test Result : Failed 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Name : Cloudamize Compare CSV_Name : Cloudamize 
+UI_Name & CSV_Name Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Nodes : 45 Compare CSV_Number Of Nodes : 45 
+UI_Number Of Nodes & CSV_Number Of Nodes Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Communicating Apps : 155 Compare CSV_Number Of Communicating Apps : 155 
+UI_Number Of Communicating Apps & CSV_Number Of Communicating Apps Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Inter-Communicating Clients : 0 Compare CSV_Number Of Inter-Communicating Clients : 0 
+UI_Number Of Inter-Communicating Clients & CSV_Number Of Inter-Communicating Clients Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Inter-Communicating Servers : 757 Compare CSV_Number Of Inter-Communicating Servers : 757 
+UI_Number Of Inter-Communicating Servers & CSV_Number Of Inter-Communicating Servers Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Proprietary Apps : 0 Compare CSV_Number Of Proprietary Apps : 0 
+UI_Number Of Proprietary Apps & CSV_Number Of Proprietary Apps Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Specialized Apps : 0 Compare CSV_Number Of Specialized Apps : 0 
+UI_Number Of Specialized Apps & CSV_Number Of Specialized Apps Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Autoscalable Nodes : 2 Compare CSV_Number Of Autoscalable Nodes : 2 
+UI_Number Of Autoscalable Nodes & CSV_Number Of Autoscalable Nodes Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Nodes Suitable For GP-SSD : 2 Compare CSV_Number Of Nodes Suitable For GP-SSD : 2 
+UI_Number Of Nodes Suitable For GP-SSD & CSV_Number Of Nodes Suitable For GP-SSD Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Nodes Suitable For The t2 Family : 23 Compare CSV_Number Of Nodes Suitable For The t2 Family : 23 
+UI_Number Of Nodes Suitable For The t2 Family & CSV_Number Of Nodes Suitable For The t2 Family Match : true ***CSV_28*** 
+Success 
+ 
+ISProvider : Aws 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Suitable Instance Types Are Available : Yes Compare CSV_Suitable Instance Types Are Available : Yes 
+UI_Suitable Instance Types Are Available & CSV_Suitable Instance Types Are Available Match : true ***CSV_28*** 
+Success 
+ 
+method name : testMigrationSettings  
+Overall Test Result :Failed 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 120200.0  Compare SummarySheet_ComputeCost : 120196.44 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 120200.0  Compare ComputeSheet_ComputeCost : 120196.44 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 17300.0  Compare SummarySheet_StorageCost : 17261.7 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 17300.0  Compare StorageSheet_StorageCost : 17261.098 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 27700.0  Compare SummarySheet_NetworkCost : 27698.7 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 27700.0  Compare NetworkSheet_NetworkCost : 27698.7 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 164700.0  Compare SummarySheet_TotalCost : 165156.28 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 164700.0 Compare GreenSphere_AnnualCost : 165000.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Sheet : Compute 
+Verify --> Addition Cost for Azure 
+No Additional Platform Cost found for machine.13.acme.com 
+No Additional Platform Cost found for machine.18.acme.com 
+No Additional Platform Cost found for machine.19.acme.com 
+No Additional Platform Cost found for machine.1.acme.com 
+No Additional Platform Cost found for machine.21.acme.com 
+No Additional Platform Cost found for machine.22.acme.com 
+No Additional Platform Cost found for machine.26.acme.com 
+No Additional Platform Cost found for machine.61.acme.com 
+No Additional Platform Cost found for machine.7.acme.com 
+Additional Platform Cost Test Failed ***CSV_31*** 
+Failed 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Hardware, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 117400.0  Compare SummarySheet_ComputeCost : 117093.125 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 117400.0  Compare ComputeSheet_ComputeCost : 117093.125 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 37000.0  Compare SummarySheet_StorageCost : 36999.598 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 37000.0  Compare StorageSheet_StorageCost : 36998.5 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 27700.0  Compare SummarySheet_NetworkCost : 27698.7 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 27700.0  Compare NetworkSheet_NetworkCost : 27698.7 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 181400.0  Compare SummarySheet_TotalCost : 181791.42 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 181400.0 Compare GreenSphere_AnnualCost : 182000.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : false ***CSV_7*** 
+Failed 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Sheet : Compute 
+Verify --> Addition Cost for Azure 
+No Additional Platform Cost found for machine.13.acme.com 
+No Additional Platform Cost found for machine.18.acme.com 
+No Additional Platform Cost found for machine.19.acme.com 
+No Additional Platform Cost found for machine.1.acme.com 
+No Additional Platform Cost found for machine.21.acme.com 
+No Additional Platform Cost found for machine.22.acme.com 
+No Additional Platform Cost found for machine.26.acme.com 
+No Additional Platform Cost found for machine.61.acme.com 
+No Additional Platform Cost found for machine.7.acme.com 
+Additional Platform Cost Test Failed ***CSV_31*** 
+Failed 
+ 
+ISProvider --> Azure 
+Dashboard Plan --> Workload, Pay-as-you-go: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+method name : testDashboard  
+Overall Test Result :Failed 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $170k Compare CSV_TotalCost : $170k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $108k Compare CSV_ComputeCost : $108k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $35.9k Compare CSV_StorageCost : $35.9k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $26.7k Compare CSV_NetworkCost : $26.7k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 170000.0 Compare CSV_TotalCost : 170372.92 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 108000.0 Compare CSV_ComputeCost : 107755.1 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35938.402 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 108000.0 Compare CSV_ComputeCost : 107755.1 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35937.4 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $170k Compare CSV_TotalCost : $170k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $108k Compare CSV_ComputeCost : $108k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $35.9k Compare CSV_StorageCost : $35.9k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $26.7k Compare CSV_NetworkCost : $26.7k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 170000.0 Compare CSV_TotalCost : 170372.92 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 108000.0 Compare CSV_ComputeCost : 107755.1 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35938.402 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 108000.0 Compare CSV_ComputeCost : 107755.1 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35937.4 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, Pay-as-you-go 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $164k Compare CSV_TotalCost : $164k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $102k Compare CSV_ComputeCost : $102k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $35.9k Compare CSV_StorageCost : $35.9k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $26.7k Compare CSV_NetworkCost : $26.7k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 164000.0 Compare CSV_TotalCost : 164531.69 
+MigrationPlanner_TotalCost and CSV_TotalCost match : false ***CSV23*** 
+Failed 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 102000.0 Compare CSV_ComputeCost : 101924.81 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35925.8 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 102000.0 Compare CSV_ComputeCost : 101924.81 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35925.195 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Workload, 12-month (pre-pay) 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $170k Compare CSV_TotalCost : $170k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $108k Compare CSV_ComputeCost : $108k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $35.9k Compare CSV_StorageCost : $35.9k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $26.7k Compare CSV_NetworkCost : $26.7k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 170000.0 Compare CSV_TotalCost : 170372.92 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 108000.0 Compare CSV_ComputeCost : 107755.1 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35938.402 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 108000.0 Compare CSV_ComputeCost : 107755.1 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35937.4 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test1212 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $170k Compare CSV_TotalCost : $170k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $107k Compare CSV_ComputeCost : $107k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $35.9k Compare CSV_StorageCost : $35.9k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $26.7k Compare CSV_NetworkCost : $26.7k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 170000.0 Compare CSV_TotalCost : 169908.72 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 107000.0 Compare CSV_ComputeCost : 107290.805 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35938.402 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 107000.0 Compare CSV_ComputeCost : 107290.805 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35900.0 Compare CSV_StorageCost : 35937.4 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 26700.0 Compare CSV_NetworkCost : 26679.9 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Test 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+method name : testMigrationPlannerDownloadAll  
+Overall Test Result : Failed 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Inbound Firewall Rules 
+Verify Detailed Report : Firewall Rules --> for null values and no data 
+Inbound Firewall Rules --> has data and does not contain null values 
+Firewall Rules Test Passed ***CSV_13*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Outbound Firewall Rules 
+Verify Detailed Report : Firewall Rules --> for null values and no data 
+Outbound Firewall Rules --> has data and does not contain null values 
+Firewall Rules Test Passed ***CSV_14*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : UDP Firewall Rules 
+Verify Detailed Report : Firewall Rules --> for null values and no data 
+UDP Firewall Rules --> has data and does not contain null values 
+Firewall Rules Test Passed ***CSV_15*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Installed Applications 
+Verify Detailed Report : Installed Apps --> for null values and no data 
+Installed Applications --> has data and does not contain null values 
+Installed Apps Test Passed ***CSV_16*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : DNS 
+Verify Detailed Report : Client App DNS --> for null values and no data 
+DNS --> has data and does not contain null values 
+Client App DNS Test Passed ***CSV_17*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : IP and DNS 
+Verify Detailed Report : IP and DNS --> for null values and no data 
+IP and DNS --> has data and does not contain null values 
+IP and DNS Test Passed ***CSV_19*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : App Interconnectivity 
+Verify Detailed Report : App Interconnectivity (All) --> for null values and no data 
+App Interconnectivity --> has data and does not contain null values 
+App Interconnectivity (All) Test Passed ***CSV_20*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : All 
+Verify Detailed Report : App Interconnectivity --> for null values and no data 
+All --> has data and does not contain null values 
+App Interconnectivity Test Passed ***CSV_21*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : To Any Server 
+Verify Detailed Report : App Interconnectivity --> for null values and no data 
+To Any Server --> has data and does not contain null values 
+App Interconnectivity Test Passed ***CSV_21*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : From Any Client 
+Verify Detailed Report : App Interconnectivity --> for null values and no data 
+From Any Client --> has data and does not contain null values 
+App Interconnectivity Test Passed ***CSV_21*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Summary 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Summary --> has data and does not contain null values 
+Inter-Node Communication Test Passed ***CSV_22*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Inter-Communicating Nodes 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Inter-Communicating Nodes --> has data and does not contain null values 
+Inter-Node Communication Test Passed ***CSV_22*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Inter-Communicating Servers 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Inter-Communicating Servers --> has data and does not contain null values 
+Inter-Node Communication Test Passed ***CSV_22*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize --> Plan : Hardware,  Pay-as-you-go 
+Sheet : Inter-Communicating Clients 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Inter-Communicating Clients --> has no data 
+Inter-Node Communication Test Failed ***CSV_22*** 
+Failed 
+ 
+method name : testMigrationPlannerDetailedReports  
+Overall Test Result : Failed 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Name : Cloudamize Compare CSV_Name : Cloudamize 
+UI_Name & CSV_Name Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Nodes : 45 Compare CSV_Number Of Nodes : 45 
+UI_Number Of Nodes & CSV_Number Of Nodes Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Communicating Apps : 155 Compare CSV_Number Of Communicating Apps : 155 
+UI_Number Of Communicating Apps & CSV_Number Of Communicating Apps Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Inter-Communicating Clients : 0 Compare CSV_Number Of Inter-Communicating Clients : 0 
+UI_Number Of Inter-Communicating Clients & CSV_Number Of Inter-Communicating Clients Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Inter-Communicating Servers : 757 Compare CSV_Number Of Inter-Communicating Servers : 757 
+UI_Number Of Inter-Communicating Servers & CSV_Number Of Inter-Communicating Servers Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Proprietary Apps : 0 Compare CSV_Number Of Proprietary Apps : 0 
+UI_Number Of Proprietary Apps & CSV_Number Of Proprietary Apps Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Specialized Apps : 0 Compare CSV_Number Of Specialized Apps : 0 
+UI_Number Of Specialized Apps & CSV_Number Of Specialized Apps Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Autoscalable Nodes : 2 Compare CSV_Number Of Autoscalable Nodes : 2 
+UI_Number Of Autoscalable Nodes & CSV_Number Of Autoscalable Nodes Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Suitable Instance Types Are Available : Yes Compare CSV_Suitable Instance Types Are Available : Yes 
+UI_Suitable Instance Types Are Available & CSV_Suitable Instance Types Are Available Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_ Number of Nodes Passed : 0 Compare CSV_ Number of Nodes Passed : 0 
+UI_ Number of Nodes Passed & CSV_ Number of Nodes Passed Match : true ***CSV_28*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_ Number of Nodes Failed with Possible Workaround : 0 Compare CSV_ Number of Nodes Failed with Possible Workaround : 0 
+UI_ Number of Nodes Failed with Possible Workaround & CSV_ Number of Nodes Failed with Possible Workaround Match : true ***CSV_28*** 
+Success 
+ 
+ISProvider : Azure 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_ Number of Nodes Failed with Potential Blockers : 45 Compare CSV_ Number of Nodes Failed with Potential Blockers : 45 
+UI_ Number of Nodes Failed with Potential Blockers & CSV_ Number of Nodes Failed with Potential Blockers Match : true ***CSV_28*** 
+Success 
+ 
+method name : testMigrationSettings  
+Overall Test Result :Failed 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Hardware: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 96400.0  Compare SummarySheet_ComputeCost : 96346.0 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Hardware: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 96400.0  Compare ComputeSheet_ComputeCost : 96346.0 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Hardware: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 45000.0  Compare SummarySheet_StorageCost : 44927.9 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Hardware: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 45000.0  Compare StorageSheet_StorageCost : 44928.004 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Hardware: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 38400.0  Compare SummarySheet_NetworkCost : 38469.5 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Hardware: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 38400.0  Compare NetworkSheet_NetworkCost : 38469.5 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Hardware: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 179500.0  Compare SummarySheet_TotalCost : 179743.2 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Hardware: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 179500.0 Compare GreenSphere_AnnualCost : 180000.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Hardware: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Workload: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 87100.0  Compare SummarySheet_ComputeCost : 87128.016 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Workload: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 87100.0  Compare ComputeSheet_ComputeCost : 87128.016 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Workload: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 36100.0  Compare SummarySheet_StorageCost : 36099.402 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Workload: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 36100.0  Compare StorageSheet_StorageCost : 36099.598 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Workload: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 38400.0  Compare SummarySheet_NetworkCost : 38469.5 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Workload: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 38400.0  Compare NetworkSheet_NetworkCost : 38469.5 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Workload: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 162100.0  Compare SummarySheet_TotalCost : 161697.28 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Workload: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 162100.0 Compare GreenSphere_AnnualCost : 162000.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Google 
+Dashboard Plan --> Workload: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+method name : testDashboard  
+Overall Test Result :Failed 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $164k Compare CSV_TotalCost : $164k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $84.9k Compare CSV_ComputeCost : $84.9k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $42.3k Compare CSV_StorageCost : $42.3k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $37k Compare CSV_NetworkCost : $37k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 164000.0 Compare CSV_TotalCost : 164272.02 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 84900.0 Compare CSV_ComputeCost : 84902.695 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 42300.0 Compare CSV_StorageCost : 42347.797 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 37000.0 Compare CSV_NetworkCost : 37021.7 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 84900.0 Compare CSV_ComputeCost : 84902.695 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 42300.0 Compare CSV_StorageCost : 42348.004 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 37000.0 Compare CSV_NetworkCost : 37021.7 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Summary 
+Verify --> Nodes 
+Compare MigrationPlanner_Nodes : 71 Compare CSV_Nodes : 71 
+MigrationPlanner_Nodes and CSV_Nodes match : true ***CSV8*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : $153k Compare CSV_TotalCost : $153k 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV9*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : $80.7k Compare CSV_ComputeCost : $80.7k 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV10*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : $35.4k Compare CSV_StorageCost : $35.4k 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV11*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : $37k Compare CSV_NetworkCost : $37k 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV12*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Infrastructure Summary 
+Verify --> TotalCost 
+Compare MigrationPlanner_TotalCost : 153000.0 Compare CSV_TotalCost : 153132.58 
+MigrationPlanner_TotalCost and CSV_TotalCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Infrastructure Summary 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 80700.0 Compare CSV_ComputeCost : 80676.4 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Infrastructure Summary 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35400.0 Compare CSV_StorageCost : 35433.805 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Infrastructure Summary 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 37000.0 Compare CSV_NetworkCost : 37021.7 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV23*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare MigrationPlanner_ComputeCost : 80700.0 Compare CSV_ComputeCost : 80676.4 
+MigrationPlanner_ComputeCost and CSV_ComputeCost match : true ***CSV24*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare MigrationPlanner_StorageCost : 35400.0 Compare CSV_StorageCost : 35434.0 
+MigrationPlanner_StorageCost and CSV_StorageCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare MigrationPlanner_NetworkCost : 37000.0 Compare CSV_NetworkCost : 37021.7 
+MigrationPlanner_NetworkCost and CSV_NetworkCost match : true ***CSV25*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Workload 
+Sheet : Infrastructure Summary 
+Verify --> Duplicate Instance Name  
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_33*** 
+Success 
+ 
+method name : testMigrationPlannerDownloadAll  
+Overall Test Result : Failed 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Inbound Firewall Rules 
+Verify Detailed Report : Firewall Rules --> for null values and no data 
+Inbound Firewall Rules --> has data and does not contain null values 
+Firewall Rules Test Passed ***CSV_13*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Outbound Firewall Rules 
+Verify Detailed Report : Firewall Rules --> for null values and no data 
+Outbound Firewall Rules --> has data and does not contain null values 
+Firewall Rules Test Passed ***CSV_14*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : UDP Firewall Rules 
+Verify Detailed Report : Firewall Rules --> for null values and no data 
+UDP Firewall Rules --> has data and does not contain null values 
+Firewall Rules Test Passed ***CSV_15*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Installed Applications 
+Verify Detailed Report : Installed Apps --> for null values and no data 
+Installed Applications --> has data and does not contain null values 
+Installed Apps Test Passed ***CSV_16*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : DNS 
+Verify Detailed Report : Client App DNS --> for null values and no data 
+DNS --> has data and does not contain null values 
+Client App DNS Test Passed ***CSV_17*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : IP and DNS 
+Verify Detailed Report : IP and DNS --> for null values and no data 
+IP and DNS --> has data and does not contain null values 
+IP and DNS Test Passed ***CSV_19*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : App Interconnectivity 
+Verify Detailed Report : App Interconnectivity (All) --> for null values and no data 
+App Interconnectivity --> has data and does not contain null values 
+App Interconnectivity (All) Test Passed ***CSV_20*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : All 
+Verify Detailed Report : App Interconnectivity --> for null values and no data 
+All --> has data and does not contain null values 
+App Interconnectivity Test Passed ***CSV_21*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : To Any Server 
+Verify Detailed Report : App Interconnectivity --> for null values and no data 
+To Any Server --> has data and does not contain null values 
+App Interconnectivity Test Passed ***CSV_21*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : From Any Client 
+Verify Detailed Report : App Interconnectivity --> for null values and no data 
+From Any Client --> has data and does not contain null values 
+App Interconnectivity Test Passed ***CSV_21*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Summary 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Summary --> has data and does not contain null values 
+Inter-Node Communication Test Passed ***CSV_22*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Inter-Communicating Nodes 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Inter-Communicating Nodes --> has data and does not contain null values 
+Inter-Node Communication Test Passed ***CSV_22*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Inter-Communicating Servers 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Inter-Communicating Servers --> has data and does not contain null values 
+Inter-Node Communication Test Passed ***CSV_22*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize --> Plan : Hardware 
+Sheet : Inter-Communicating Clients 
+Verify Detailed Report : Inter-Node Communication --> for null values and no data 
+Inter-Communicating Clients --> has no data 
+Inter-Node Communication Test Failed ***CSV_22*** 
+Failed 
+ 
+method name : testMigrationPlannerDetailedReports  
+Overall Test Result : Failed 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Name : Cloudamize Compare CSV_Name : Cloudamize 
+UI_Name & CSV_Name Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Nodes : 45 Compare CSV_Number Of Nodes : 45 
+UI_Number Of Nodes & CSV_Number Of Nodes Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Communicating Apps : 155 Compare CSV_Number Of Communicating Apps : 155 
+UI_Number Of Communicating Apps & CSV_Number Of Communicating Apps Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Inter-Communicating Clients : 0 Compare CSV_Number Of Inter-Communicating Clients : 0 
+UI_Number Of Inter-Communicating Clients & CSV_Number Of Inter-Communicating Clients Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Inter-Communicating Servers : 757 Compare CSV_Number Of Inter-Communicating Servers : 757 
+UI_Number Of Inter-Communicating Servers & CSV_Number Of Inter-Communicating Servers Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Proprietary Apps : 0 Compare CSV_Number Of Proprietary Apps : 0 
+UI_Number Of Proprietary Apps & CSV_Number Of Proprietary Apps Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Specialized Apps : 0 Compare CSV_Number Of Specialized Apps : 0 
+UI_Number Of Specialized Apps & CSV_Number Of Specialized Apps Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Number Of Autoscalable Nodes : 2 Compare CSV_Number Of Autoscalable Nodes : 2 
+UI_Number Of Autoscalable Nodes & CSV_Number Of Autoscalable Nodes Match : true ***CSV_27*** 
+Success 
+ 
+ISProvider : Google 
+Migrator Group : Cloudamize 
+Verify --> Migration Settings 
+Compare UI_Suitable Instance Types Are Available : Yes Compare CSV_Suitable Instance Types Are Available : Yes 
+UI_Suitable Instance Types Are Available & CSV_Suitable Instance Types Are Available Match : true ***CSV_27*** 
+Success 
+ 
+method name : testMigrationSettings  
+Overall Test Result :Failed 
+ 
+Test process complete 
+Total time taken 20min 
+ 
+Test process complete 
+Total time taken 1min 
+ 
+Test process complete 
+Total time taken 1min 
+ 
+Test process complete 
+Total time taken 1min 
+ 
+Test process complete 
+Total time taken 1min 
+ 
+Test process complete 
+Total time taken 1min 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare SummarySheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare ComputeSheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 3400.0  Compare SummarySheet_StorageCost : 3351.9998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 3400.0  Compare StorageSheet_StorageCost : 3352.1995 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 86500.0  Compare SummarySheet_TotalCost : 86499.6 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 86500.0 Compare GreenSphere_AnnualCost : 86500.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 56900.0  Compare SummarySheet_ComputeCost : 56913.9 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 56900.0  Compare ComputeSheet_ComputeCost : 56913.9 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 64100.0  Compare SummarySheet_TotalCost : 64097.203 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 64100.0 Compare GreenSphere_AnnualCost : 64100.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare SummarySheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare ComputeSheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0  Compare SummarySheet_TotalCost : 37692.805 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0 Compare GreenSphere_AnnualCost : 37700.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+method name : testDashboard  
+Overall Test Result :Success 
+ 
+Test process complete 
+Total time taken 2min 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare SummarySheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare ComputeSheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare SummarySheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare ComputeSheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 3400.0  Compare SummarySheet_StorageCost : 3351.9998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 3400.0  Compare StorageSheet_StorageCost : 3352.1995 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 86500.0  Compare SummarySheet_TotalCost : 86499.6 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 86500.0 Compare GreenSphere_AnnualCost : 86500.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 56900.0  Compare SummarySheet_ComputeCost : 56913.9 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 56900.0  Compare ComputeSheet_ComputeCost : 56913.9 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 64100.0  Compare SummarySheet_TotalCost : 64097.203 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 64100.0 Compare GreenSphere_AnnualCost : 64100.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare SummarySheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare ComputeSheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0  Compare SummarySheet_TotalCost : 37692.805 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0 Compare GreenSphere_AnnualCost : 37700.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare SummarySheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare ComputeSheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0  Compare SummarySheet_TotalCost : 37692.805 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0 Compare GreenSphere_AnnualCost : 37700.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 21100.0  Compare SummarySheet_ComputeCost : 21096.602 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 21100.0  Compare ComputeSheet_ComputeCost : 21096.602 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 0.0  Compare SummarySheet_NetworkCost : 0.0 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 0.0  Compare NetworkSheet_NetworkCost : 0.0 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 23700.0  Compare SummarySheet_TotalCost : 23683.799 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 23700.0 Compare GreenSphere_AnnualCost : 23700.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 39000.0  Compare SummarySheet_ComputeCost : 39001.0 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 39000.0  Compare ComputeSheet_ComputeCost : 39001.0 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 46200.0  Compare SummarySheet_TotalCost : 46184.504 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 46200.0 Compare GreenSphere_AnnualCost : 46200.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+method name : testDashboard  
+Overall Test Result :Success 
+ 
+Test process complete 
+Total time taken 2min 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare SummarySheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare ComputeSheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 3400.0  Compare SummarySheet_StorageCost : 3351.9998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 3400.0  Compare StorageSheet_StorageCost : 3352.1995 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 86500.0  Compare SummarySheet_TotalCost : 86499.6 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 86500.0 Compare GreenSphere_AnnualCost : 86500.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 56900.0  Compare SummarySheet_ComputeCost : 56913.9 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 56900.0  Compare ComputeSheet_ComputeCost : 56913.9 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 64100.0  Compare SummarySheet_TotalCost : 64097.203 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 64100.0 Compare GreenSphere_AnnualCost : 64100.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare SummarySheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare ComputeSheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0  Compare SummarySheet_TotalCost : 37692.805 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0 Compare GreenSphere_AnnualCost : 37700.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare SummarySheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 30500.0  Compare ComputeSheet_ComputeCost : 30509.898 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0  Compare SummarySheet_TotalCost : 37692.805 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 37700.0 Compare GreenSphere_AnnualCost : 37700.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 21100.0  Compare SummarySheet_ComputeCost : 21096.602 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 21100.0  Compare ComputeSheet_ComputeCost : 21096.602 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 0.0  Compare SummarySheet_NetworkCost : 0.0 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 0.0  Compare NetworkSheet_NetworkCost : 0.0 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 23700.0  Compare SummarySheet_TotalCost : 23683.799 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 23700.0 Compare GreenSphere_AnnualCost : 23700.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, Cost Optimized 3-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 39000.0  Compare SummarySheet_ComputeCost : 39001.0 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 39000.0  Compare ComputeSheet_ComputeCost : 39001.0 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare SummarySheet_StorageCost : 2586.7998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 2600.0  Compare StorageSheet_StorageCost : 2586.9998 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 46200.0  Compare SummarySheet_TotalCost : 46184.504 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 46200.0 Compare GreenSphere_AnnualCost : 46200.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Workload, All Upfront 1-yr: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
+ 
+method name : testDashboard  
+Overall Test Result :Success 
+ 
+Test process complete 
+Total time taken 2min 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare SummarySheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & SummarySheet_ComputeCost Match : true  ***CSV_1*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Compute 
+Verify --> ComputeCost 
+Compare Dashboard_ComputeCost : 78500.0  Compare ComputeSheet_ComputeCost : 78551.4 
+Dashboard_ComputeCost & ComputeSheet_ComputeCost Match : true  ***CSV_2*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 3400.0  Compare SummarySheet_StorageCost : 3351.9998 
+Dashboard_StorageCost & SummarySheet_StorageCost Match : true  ***CSV_3*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Storage 
+Verify --> StorageCost 
+Compare Dashboard_StorageCost : 3400.0  Compare StorageSheet_StorageCost : 3352.1995 
+Dashboard_StorageCost & StorageSheet_StorageCost Match : true  ***CSV_4*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare SummarySheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & SummarySheet_NetworkCost Match : true  ***CSV_5*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Network 
+Verify --> NetworkCost 
+Compare Dashboard_NetworkCost : 4600.0  Compare NetworkSheet_NetworkCost : 4596.8003 
+Dashboard_NetworkCost & NetworkSheet_NetworkCost Match : true  ***CSV_6*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 86500.0  Compare SummarySheet_TotalCost : 86499.6 
+Dashboard_TotalCost & SummarySheet_TotalCost Match : true  ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Verify --> TotalCost 
+Compare Dashboard_TotalCost : 86500.0 Compare GreenSphere_AnnualCost : 86500.0 
+Dashboard_TotalCost & GreenSphere_AnnualCost Match : true ***CSV_7*** 
+Success 
+ 
+ISProvider --> Aws 
+Dashboard Plan --> Hardware, On Demand: All Infrastructure 
+Sheet : Summary 
+Verify --> Duplicate Instance Name 
+All instance names are unique 
+Duplicate Instance Name Test Passed ***CSV_32*** 
+Success 
