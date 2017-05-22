@@ -38,7 +38,7 @@ public class CommonMethods extends Constants{
 		public static void login() throws InterruptedException, IOException{
 	    	startTime = System.currentTimeMillis();
 	    	browser = System.getProperty("browser");
-	    	browser="chrome";
+	    	//browser="chrome";
 	    	if(browser.equalsIgnoreCase("firefox")){
 	    		CommonMethods.useFirefox();	
 	    	}
@@ -58,8 +58,7 @@ public class CommonMethods extends Constants{
 			/** Logging to cloudamize MainPage **/
 			String uid = System.getProperty("uid");
 			driver.get("https://qa.cloudamize.com/login.jsp");
-			driver.findElement(By.id("j_username")).sendKeys("test_auto1@cloudamize.com");
-			
+			driver.findElement(By.id("j_username")).sendKeys(uid);
 			driver.findElement(By.id("j_password")).sendKeys("cc");
 			driver.findElement(By.id("loginSubmit")).click();
 			Thread.sleep(5000);
